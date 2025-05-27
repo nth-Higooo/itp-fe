@@ -32,7 +32,8 @@ export const Logo = forwardRef(
       <Box
         alt="Single logo"
         component="img"
-        src={`${CONFIG.assetsDir}/logo/logo-single.png`}
+        src="https://res.cloudinary.com/dstmzshjs/image/upload/v1748369441/logo-single_dcobqx.png"
+        // src={`${CONFIG.assetsDir}/logo/logo-single.png`}
         width="auto"
         height="100%"
       />
@@ -42,7 +43,8 @@ export const Logo = forwardRef(
       <Box
         alt="Full logo"
         component="img"
-        src={`${CONFIG.assetsDir}/logo/logo-full.png`}
+        src="https://res.cloudinary.com/dstmzshjs/image/upload/v1748369441/logo-full_oeyizv.png"
+        // src={`${CONFIG.assetsDir}/logo/logo-full.png`}
         width="auto"
         height="160%"
         sx={{
