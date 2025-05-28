@@ -58,11 +58,11 @@ export function EmployeeTabOthers({ currentEmployee, canEdit, role }: EmployeeTa
     return () => unsubscribe();
   }, [watch]);
 
-  useEffect(() => {
-    if (getTimeKeeperStatus === 'idle') {
-      dispatch(getTimeKeeperUsersAsync());
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (getTimeKeeperStatus === 'idle') {
+  //     dispatch(getTimeKeeperUsersAsync());
+  //   }
+  // }, []);
 
   const onSubmit = handleSubmit(async (data: OthersInfo) => {
     try {

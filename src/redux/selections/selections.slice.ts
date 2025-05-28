@@ -149,10 +149,10 @@ export const selectionsSlice = createSlice({
       state.skillTypes = action.payload.skillTypes;
     });
 
-    //Time Keeper User
-    builder.addCase(getTimeKeeperUsersAsync.fulfilled, (state, action) => {
-      state.timekeeperUsers = action.payload.data;
-    });
+    // //Time Keeper User
+    // builder.addCase(getTimeKeeperUsersAsync.fulfilled, (state, action) => {
+    //   state.timekeeperUsers = action.payload.data;
+    // });
 
     //Degrees
     builder.addCase(getDegreesAsync.fulfilled, (state, action) => {
